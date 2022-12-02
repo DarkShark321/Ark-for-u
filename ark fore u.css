@@ -44,13 +44,13 @@ p {
 }
 
 #nav ul a {
-    color: gray;
+    color: rgb(128, 128, 128);
     text-decoration: none;
 }
 
 #nav ul li a:hover {
     cursor:pointer; 
-    color: #00AA55;
+    color: #aa0000;
 }
 
 #slider {
@@ -63,7 +63,7 @@ p {
 }
 
 #mitte h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
-    color:#00AA55;
+    color:#2500aa;
     font-weight: 300;
 }
 
@@ -78,7 +78,7 @@ p {
     padding-bottom: 20px;
     padding-top: 20px;
     margin-top: 15px;
-    background:rgb(173, 21, 178)
+    background:rgb(15, 145, 210)
 }
 
 #unten p {
