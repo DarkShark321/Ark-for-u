@@ -54,20 +54,42 @@ p {
 }
 
 #slider {
-        width: 100%;
-    } 
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 50%;
+} 
 
-#mitte {
+#mitte_oben {
+    display: flex;
+    justify-content: center;
     padding-left: 5%;
     padding-right: 5%;
 }
 
-#mitte h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+#mitte_oben h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
     color:#2500aa;
     font-weight: 300;
 }
 
-#mitte p img {
+#mitte_oben p img {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    display: block;
+}
+
+#mitte_unten {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#mitte_unten h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+    color:#2500aa;
+    font-weight: 300;
+}
+
+#mitte_unten p img {
     width: 100px;
     height: auto;
     border-radius: 100%;
